@@ -177,6 +177,9 @@
                 <mappings>
                     <nistCSF>
                         <categories>
+                            <category>GV.OC Organizational Context</category>
+                            <category>ID.AM Asset Management</category>
+                            <category>GV.RM Risk Management Strategy</category>
                         </categories>
                     </nistCSF>
                 </mappings>
@@ -187,6 +190,9 @@
                 <mappings>
                     <nistCSF>
                         <categories>
+                            <category>GV.OC Organizational Context</category>
+                            <category>ID.AM Asset Management</category>
+                            <category>GV.SC Cybersecurity Supply Chain Risk Management</category>
                         </categories>
                     </nistCSF>
                 </mappings>
@@ -197,6 +203,9 @@
                 <mappings>
                     <nistCSF>
                         <categories>
+                            <category>GV.OC Organizational Context</category>
+                            <category>ID.AM Asset Management</category>
+                            <category>GV.RR Roles, Responsibilities, and Authorities</category>
                         </categories>
                     </nistCSF>
                 </mappings>
@@ -207,40 +216,11 @@
                 <mappings>
                     <nistCSF>
                         <categories>
+                            <category>GV.RM Risk Management Strategy</category>
+                            <category>GV.OV Oversight</category>
                         </categories>
                     </nistCSF>
                 </mappings>
-                <modules>
-                    <CostModel>
-                        <description>Framework for understanding and managing security operations costs</description>
-                        <mappings>
-                            <nistCSF>
-                                <categories>
-                                </categories>
-                            </nistCSF>
-                        </mappings>
-                    </CostModel>
-                    
-                    <ValueModel>
-                        <description>Framework for measuring and demonstrating security operations value</description>
-                        <mappings>
-                            <nistCSF>
-                                <categories>
-                                </categories>
-                            </nistCSF>
-                        </mappings>
-                    </ValueModel>
-                    
-                    <InvestmentModel>
-                        <description>Framework for planning and justifying security operations investments</description>
-                        <mappings>
-                            <nistCSF>
-                                <categories>
-                                </categories>
-                            </nistCSF>
-                        </mappings>
-                    </InvestmentModel>
-                </modules>
             </BusinessEconomics>
         </modules>
     </BusinessArchitecture>
@@ -264,6 +244,9 @@
                 <mappings>
                     <nistCSF>
                         <categories>
+                            <category>DE.CM Continuous Monitoring</category>
+                            <category>PR.PS Platform Security</category>
+                            <category>PR.IR Technology Infrastructure Resilience</category>
                         </categories>
                     </nistCSF>
                 </mappings>
@@ -274,6 +257,8 @@
                 <mappings>
                     <nistCSF>
                         <categories>
+                            <category>DE.CM Continuous Monitoring</category>
+                            <category>DE.AE Adverse Event Analysis</category>
                         </categories>
                     </nistCSF>
                 </mappings>
@@ -284,16 +269,36 @@
                 <mappings>
                     <nistCSF>
                         <categories>
+                            <category>RS.MA Incident Management</category>
+                            <category>RS.AN Incident Analysis</category>
+                            <category>RS.CO Incident Response Reporting and Communication</category>
+                            <category>RS.MI Incident Mitigation</category>
+                            <category>RC.RP Incident Recovery Plan Execution</category>
                         </categories>
                     </nistCSF>
                 </mappings>
             </IncidentResponse>
+
+            <RecoveryCapability>
+                <description>Capability to maintain security operations resilience and support organizational recovery</description>
+                <mappings>
+                    <nistCSF>
+                        <categories>
+                            <category>PR.IR Technology Infrastructure Resilience</category>
+                            <category>RC.RP Incident Recovery Plan Execution</category>
+                            <category>RC.CO Incident Recovery Communication</category>
+                        </categories>
+                    </nistCSF>
+                </mappings>
+            </RecoveryCapability>
             
             <ThreatIntelligence>
                 <description>Capability to gather and apply threat intelligence to defense</description>
                 <mappings>
                     <nistCSF>
                         <categories>
+                            <category>ID.RA Risk Assessment</category>
+                            <category>DE.AE Adverse Event Analysis</category>
                         </categories>
                     </nistCSF>
                 </mappings>
@@ -304,6 +309,9 @@
                 <mappings>
                     <nistCSF>
                         <categories>
+                            <category>DE.AE Adverse Event Analysis</category>
+                            <category>RS.AN Incident Analysis</category>
+                            <category>ID.RA Risk Assessment</category>
                         </categories>
                     </nistCSF>
                 </mappings>
@@ -314,6 +322,8 @@
                 <mappings>
                     <nistCSF>
                         <categories>
+                            <category>ID.RA Risk Assessment</category>
+                            <category>PR.PS Platform Security</category>
                         </categories>
                     </nistCSF>
                 </mappings>
@@ -324,6 +334,8 @@
                 <mappings>
                     <nistCSF>
                         <categories>
+                            <category>ID.RA Risk Assessment</category>
+                            <category>ID.AM Asset Management</category>
                         </categories>
                     </nistCSF>
                 </mappings>
@@ -347,6 +359,8 @@
                 <mappings>
                     <nistCSF>
                         <categories>
+                            <category>GV.RR Roles, Responsibilities, and Authorities</category>
+                            <category>GV.PO Policy</category>
                         </categories>
                     </nistCSF>
                 </mappings>
@@ -357,6 +371,8 @@
                 <mappings>
                     <nistCSF>
                         <categories>
+                            <category>PR.AT Awareness and Training</category>
+                            <category>GV.RR Roles, Responsibilities, and Authorities</category>
                         </categories>
                     </nistCSF>
                 </mappings>
@@ -367,6 +383,7 @@
                 <mappings>
                     <nistCSF>
                         <categories>
+                            <category>GV.RR Roles, Responsibilities, and Authorities</category>
                         </categories>
                     </nistCSF>
                 </mappings>
@@ -377,6 +394,8 @@
                 <mappings>
                     <nistCSF>
                         <categories>
+                            <category>GV.RR Roles, Responsibilities, and Authorities</category>
+                            <category>PR.AT Awareness and Training</category>
                         </categories>
                     </nistCSF>
                 </mappings>
@@ -401,6 +420,9 @@
                 <mappings>
                     <nistCSF>
                         <categories>
+                            <category>DE.CM Continuous Monitoring</category>
+                            <category>PR.PS Platform Security</category>
+                            <category>PR.IR Technology Infrastructure Resilience</category>
                         </categories>
                     </nistCSF>
                 </mappings>
@@ -411,6 +433,9 @@
                 <mappings>
                     <nistCSF>
                         <categories>
+                            <category>PR.IR Technology Infrastructure Resilience</category>
+                            <category>RS.MA Incident Management</category>
+                            <category>RS.CO Incident Response Reporting and Communication</category>
                         </categories>
                     </nistCSF>
                 </mappings>
@@ -421,6 +446,9 @@
                 <mappings>
                     <nistCSF>
                         <categories>
+                            <category>PR.PS Platform Security</category>
+                            <category>PR.IR Technology Infrastructure Resilience</category>
+                            <category>PR.AA Identity Management, Authentication, and Access Control</category>
                         </categories>
                     </nistCSF>
                 </mappings>
@@ -431,6 +459,8 @@
                 <mappings>
                     <nistCSF>
                         <categories>
+                            <category>PR.DS Data Security</category>
+                            <category>PR.PS Platform Security</category>
                         </categories>
                     </nistCSF>
                 </mappings>
@@ -455,6 +485,9 @@
                 <mappings>
                     <nistCSF>
                         <categories>
+                            <category>PR.PS Platform Security</category>
+                            <category>ID.AM Asset Management</category>
+                            <category>PR.IR Technology Infrastructure Resilience</category>
                         </categories>
                     </nistCSF>
                 </mappings>
@@ -465,6 +498,8 @@
                 <mappings>
                     <nistCSF>
                         <categories>
+                            <category>PR.PS Platform Security</category>
+                            <category>PR.AA Identity Management, Authentication, and Access Control</category>
                         </categories>
                     </nistCSF>
                 </mappings>
@@ -475,6 +510,9 @@
                 <mappings>
                     <nistCSF>
                         <categories>
+                            <category>PR.PS Platform Security</category>
+                            <category>PR.DS Data Security</category>
+                            <category>ID.AM Asset Management</category>
                         </categories>
                     </nistCSF>
                 </mappings>
@@ -485,6 +523,8 @@
                 <mappings>
                     <nistCSF>
                         <categories>
+                            <category>PR.DS Data Security</category>
+                            <category>ID.AM Asset Management</category>
                         </categories>
                     </nistCSF>
                 </mappings>
@@ -495,21 +535,25 @@
                 <mappings>
                     <nistCSF>
                         <categories>
+                            <category>PR.IR Technology Infrastructure Resilience</category>
+                            <category>PR.PS Platform Security</category>
+                            <category>ID.AM Asset Management</category>
                         </categories>
                     </nistCSF>
                 </mappings>
             </InfrastructureArchitecture>
 
             <ResilienceArchitecture>
-
-            <description>Design patterns for platform resilience, backup/recovery, and business continuity</description>
-            <mappings>
-                <nistCSF>
-                    <categories>
-                    </categories>
-                </nistCSF>
-            </mappings>
-        </ResilienceArchitecture>
+                <description>Design patterns for platform resilience, backup/recovery, and business continuity</description>
+                <mappings>
+                    <nistCSF>
+                        <categories>
+                            <category>PR.IR Technology Infrastructure Resilience</category>
+                            <category>PR.DS Data Security</category>
+                        </categories>
+                    </nistCSF>
+                </mappings>
+            </ResilienceArchitecture>
         </modules>
     </PlatformArchitecture>
 
@@ -526,164 +570,162 @@
                 </functions>
             </nistCSF>
         </mappings>
-        <modules>
-            <ServiceDelivery>
-                <description>Methods of delivering security services to the organization</description>
-                <mappings>
-                    <nistCSF>
-                        <categories>
-                        </categories>
-                    </nistCSF>
-                </mappings>
-                <modules>
-                    <IntelligenceOperations>
-                        <description>Operations of the threat intelligence capability</description>
-                        <mappings>
-                            <nistCSF>
-                                <categories>
-                                </categories>
-                            </nistCSF>
-                        </mappings>
-                    </IntelligenceOperations>
-                    
-                    <MonitoringOperations>
-                        <description>Operations of the security monitoring capability</description>
-                        <mappings>
-                            <nistCSF>
-                                <categories>
-                                </categories>
-                            </nistCSF>
-                        </mappings>
-                    </MonitoringOperations>
-                    
-                    <DetectionOperations>
-                        <description>Operations of the threat detection capability</description>
-                        <mappings>
-                            <nistCSF>
-                                <categories>
-                                </categories>
-                            </nistCSF>
-                        </mappings>
-                    </DetectionOperations>
-                    
-                    <ResponseOperations>
-                        <description>Operations of the incident response capability</description>
-                        <mappings>
-                            <nistCSF>
-                                <categories>
-                                    <category>RS.MA Incident Management</category>
-                                    <category>RS.AN Incident Analysis</category>
-                                    <category>RS.CO Incident Response Reporting and Communication</category>
-                                    <category>RS.MI Incident Mitigation</category>
-                                </categories>
-                            </nistCSF>
-                        </mappings>
-                    </ResponseOperations>
+            <modules>
+                <IntelligenceOperations>
+                    <description>Operations of the threat intelligence capability</description>
+                    <mappings>
+                        <nistCSF>
+                            <categories>
+                                <category>ID.RA Risk Assessment</category>
+                                <category>DE.AE Adverse Event Analysis</category>
+                            </categories>
+                        </nistCSF>
+                    </mappings>
+                </IntelligenceOperations>
+                
+                <MonitoringOperations>
+                    <description>Operations of the security monitoring capability</description>
+                    <mappings>
+                        <nistCSF>
+                            <categories>
+                                <category>DE.CM Continuous Monitoring</category>
+                            </categories>
+                        </nistCSF>
+                    </mappings>
+                </MonitoringOperations>
+                
+                <DetectionOperations>
+                    <description>Operations of the threat detection capability</description>
+                    <mappings>
+                        <nistCSF>
+                            <categories>
+                                <category>DE.CM Continuous Monitoring</category>
+                                <category>DE.AE Adverse Event Analysis</category>
+                            </categories>
+                        </nistCSF>
+                    </mappings>
+                </DetectionOperations>
+                
+                <ResponseOperations>
+                    <description>Operations of the incident response capability</description>
+                    <mappings>
+                        <nistCSF>
+                            <categories>
+                                <category>RS.MA Incident Management</category>
+                                <category>RS.AN Incident Analysis</category>
+                                <category>RS.CO Incident Response Reporting and Communication</category>
+                                <category>RS.MI Incident Mitigation</category>
+                            </categories>
+                        </nistCSF>
+                    </mappings>
+                </ResponseOperations>
 
-                    <RecoveryOperations>
-                        <description>Operations supporting recovery of security capabilities and coordination with organizational recovery</description>
-                        <mappings>
-                            <nistCSF>
-                                <categories>
-                                    <category>RC.RP Incident Recovery Plan Execution</category>
-                                    <category>RC.CO Incident Recovery Communication</category>
-                                </categories>
-                            </nistCSF>
-                        </mappings>
-                    </RecoveryOperations>
-                    
-                    <AnalyticsOperations>
-                        <description>Operations of the security analytics capability</description>
-                        <mappings>
-                            <nistCSF>
-                                <categories>
-                                </categories>
-                            </nistCSF>
-                        </mappings>
-                    </AnalyticsOperations>
-                </modules>
-            </ServiceDelivery>
-            
-            <ChangeManagement>
-                <description>Processes for managing changes within security operations</description>
-                <mappings>
-                    <nistCSF>
-                        <categories>
-                        </categories>
-                    </nistCSF>
-                </mappings>
-            </ChangeManagement>
-            
-            <AccessManagement>
-                <description>Management of access to security systems</description>
-                <mappings>
-                    <nistCSF>
-                        <categories>
-                        </categories>
-                    </nistCSF>
-                </mappings>
-            </AccessManagement>
-            
-            <VendorManagement>
-                <description>Management of security vendors and service providers</description>
-                <mappings>
-                    <nistCSF>
-                        <categories>
-                        </categories>
-                    </nistCSF>
-                </mappings>
-            </VendorManagement>
-            
-            <StakeholderEngagement>
-                <description>Management of engagement with security stakeholders</description>
-                <mappings>
-                    <nistCSF>
-                        <categories>
-                        </categories>
-                    </nistCSF>
-                </mappings>
-            </StakeholderEngagement>
-            
-            <LifecycleManagement>
-                <description>Processes for managing the lifecycle of security capabilities, technologies, and processes</description>
-                <mappings>
-                    <nistCSF>
-                        <categories>
-                        </categories>
-                    </nistCSF>
-                </mappings>
-                <modules>
-                    <TechnologyLifecycle>
-                        <description>Managing the lifecycle of security technologies from adoption to decommissioning</description>
-                        <mappings>
-                            <nistCSF>
-                                <categories>
-                                </categories>
-                            </nistCSF>
-                        </mappings>
-                    </TechnologyLifecycle>
-                    
-                    <ProcessLifecycle>
-                        <description>Continuous evaluation and improvement of security processes</description>
-                        <mappings>
-                            <nistCSF>
-                                <categories>
-                                </categories>
-                            </nistCSF>
-                        </mappings>
-                    </ProcessLifecycle>
-                    
-                    <CapabilityMaturity>
-                        <description>Framework for assessing and enhancing the maturity of security capabilities</description>
-                        <mappings>
-                            <nistCSF>
-                                <categories>
-                                </categories>
-                            </nistCSF>
-                        </mappings>
-                    </CapabilityMaturity>
-                </modules>
-            </LifecycleManagement>
-        </modules>
-    </OperationalModel>
-</SecurityOperationsProgram>
+                <RecoveryOperations>
+                    <description>Operations supporting recovery of security capabilities and coordination with organizational recovery</description>
+                    <mappings>
+                        <nistCSF>
+                            <categories>
+                                <category>RC.RP Incident Recovery Plan Execution</category>
+                                <category>RC.CO Incident Recovery Communication</category>
+                            </categories>
+                        </nistCSF>
+                    </mappings>
+                </RecoveryOperations>
+                
+                <AnalyticsOperations>
+                    <description>Operations of the security analytics capability</description>
+                    <mappings>
+                        <nistCSF>
+                            <categories>
+                                <category>DE.AE Adverse Event Analysis</category>
+                                <category>RS.AN Incident Analysis</category>
+                            </categories>
+                        </nistCSF>
+                    </mappings>
+                </AnalyticsOperations>
+                
+                <ChangeManagement>
+                    <description>Processes for managing changes within security operations</description>
+                    <mappings>
+                        <nistCSF>
+                            <categories>
+                                <category>ID.RA Risk Assessment</category>
+                                <category>PR.PS Platform Security</category>
+                            </categories>
+                        </nistCSF>
+                    </mappings>
+                </ChangeManagement>
+                
+                <AccessManagement>
+                    <description>Management of access to security systems</description>
+                    <mappings>
+                        <nistCSF>
+                            <categories>
+                                <category>PR.AA Identity Management, Authentication, and Access Control</category>
+                            </categories>
+                        </nistCSF>
+                    </mappings>
+                </AccessManagement>
+                
+                <VendorManagement>
+                    <description>Management of security vendors and service providers</description>
+                    <mappings>
+                        <nistCSF>
+                            <categories>
+                                <category>GV.SC Cybersecurity Supply Chain Risk Management</category>
+                            </categories>
+                        </nistCSF>
+                    </mappings>
+                </VendorManagement>
+                
+                <StakeholderEngagement>
+                    <description>Management of engagement with security stakeholders</description>
+                    <mappings>
+                        <nistCSF>
+                            <categories>
+                                <category>GV.OC Organizational Context</category>
+                                <category>GV.RR Roles, Responsibilities, and Authorities</category>
+                            </categories>
+                        </nistCSF>
+                    </mappings>
+                </StakeholderEngagement>
+                
+                <TechnologyLifecycle>
+                    <description>Managing the lifecycle of security technologies from adoption to decommissioning</description>
+                    <mappings>
+                        <nistCSF>
+                            <categories>
+                                <category>ID.AM Asset Management</category>
+                                <category>PR.PS Platform Security</category>
+                                <category>ID.IM Improvement</category>
+                                <category>GV.OV Oversight</category>
+                            </categories>
+                        </nistCSF>
+                    </mappings>
+                </TechnologyLifecycle>
+                
+                <ProcessLifecycle>
+                    <description>Continuous evaluation and improvement of security processes</description>
+                    <mappings>
+                        <nistCSF>
+                            <categories>
+                                <category>ID.IM Improvement</category>
+                                <category>GV.OV Oversight</category>
+                            </categories>
+                        </nistCSF>
+                    </mappings>
+                </ProcessLifecycle>
+                
+                <CapabilityMaturity>
+                    <description>Framework for assessing and enhancing the maturity of security capabilities</description>
+                    <mappings>
+                        <nistCSF>
+                            <categories>
+                                <category>ID.IM Improvement</category>
+                                <category>GV.OV Oversight</category>
+                            </categories>
+                        </nistCSF>
+                    </mappings>
+                </CapabilityMaturity>
+            </modules>
+        </OperationalModel>
