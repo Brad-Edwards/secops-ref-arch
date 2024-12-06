@@ -1,0 +1,689 @@
+<SecurityOperationsProgram>
+
+    <Strategy>
+        <description>Direction, mandate, and governance for security operations at a strategic level</description>
+        <mappings>
+            <nistCSF>
+                <functions>
+                    <function>GV Govern</function>
+                    <function>ID Identify</function>
+                </functions>
+            </nistCSF>
+        </mappings>
+        <modules>
+            <Mandate>
+                <description>High-level strategy outlining security operations' role in achieving cybersecurity objectives</description>
+                <mappings>
+                    <nistCSF>
+                        <categories>
+                            <category>GV.OC Organizational Context</category>
+                            <category>GV.RM Risk Management Strategy</category>
+                            <category>GV.RR Roles and Responsibilities</category>
+                            <category>GV.PO Policy</category>
+                        </categories>
+                    </nistCSF>
+                </mappings>
+            </Mandate>
+            
+            <ConceptOfOperations>
+                <description>Strategic approach for implementing the mandate in security operations</description>
+                <mappings>
+                    <nistCSF>
+                        <categories>
+                            <category>GV.OC Organizational Context</category>
+                            <category>GV.RM Risk Management Strategy</category>
+                            <category>GV.RR Roles and Responsibilities</category>
+                            <category>GV.PO Policy</category>
+                            <category>GV.OV Oversight</category>
+                            <category>GV.SC Cybersecurity Supply Chain Risk Management</category>
+                        </categories>
+                    </nistCSF>
+                </mappings>
+            </ConceptOfOperations>
+            
+            <CapabilityStrategy>
+                <description>Strategic plan for developing and maturing security operations capabilities</description>
+                <mappings>
+                    <nistCSF>
+                        <categories>
+                            <category>GV.OC Organizational Context</category>
+                            <category>GV.RM Risk Management Strategy</category>
+                            <category>GV.RR Roles and Responsibilities</category>
+                            <category>GV.SC Cybersecurity Supply Chain Risk Management</category>
+                        </categories>
+                    </nistCSF>
+                </mappings>
+            </CapabilityStrategy>
+            
+            <Standards>
+                <description>Policies and standards governing the development and execution of security operations</description>
+                <mappings>
+                    <nistCSF>
+                        <categories>
+                            <category>GV.PO Policy</category>
+                            <category>GV.OC Organizational Context</category>
+                            <category>GV.OV Oversight</category>
+                        </categories>
+                    </nistCSF>
+                </mappings>
+            </Standards>
+            
+            <RiskManagement>
+                <description>Strategic framework for managing risks within security operations</description>
+                <mappings>
+                    <nistCSF>
+                        <categories>
+                            <category>GV.RM Risk Management Strategy</category>
+                            <category>GV.OC Organizational Context</category>
+                            <category>GV.SC Cybersecurity Supply Chain Risk Management</category>
+                            <category>GV.OV Oversight</category>
+                        </categories>
+                    </nistCSF>
+                </mappings>
+            </RiskManagement>
+            
+            <PlatformRoadmap>
+                <description>Strategic plan outlining the evolution of security operations platform capabilities</description>
+                <mappings>
+                    <nistCSF>
+                        <categories>
+                            <category>GV.OC Organizational Context</category>
+                            <category>GV.SC Cybersecurity Supply Chain Risk Management</category>
+                        </categories>
+                    </nistCSF>
+                </mappings>
+            </PlatformRoadmap>
+            
+            <MetricsFramework>
+                <description>Framework for assessing security operations effectiveness</description>
+                <mappings>
+                    <nistCSF>
+                        <categories>
+                            <category>GV.RM Risk Management Strategy</category>
+                            <category>GV.PO Policy</category>
+                            <category>GV.OV Oversight</category>
+                        </categories>
+                    </nistCSF>
+                </mappings>
+            </MetricsFramework>
+            
+            <ComplianceManagement>
+                <description>Management of compliance requirements and validation efforts</description>
+                <mappings>
+                    <nistCSF>
+                        <categories>
+                            <category>GV.OC Organizational Context</category>
+                            <category>GV.OV Oversight</category>
+                        </categories>
+                    </nistCSF>
+                </mappings>
+            </ComplianceManagement>
+            
+            <DecisionLog>
+                <description>Documentation and tracking of key decisions affecting security operations</description>
+                <mappings>
+                    <nistCSF>
+                        <categories>
+                            <category>GV.OC Organizational Context</category>
+                            <category>GV.RM Risk Management Strategy</category>
+                            <category>GV.OV Oversight</category>
+                        </categories>
+                    </nistCSF>
+                </mappings>
+            </DecisionLog>
+            
+            <AuditFramework>
+                <description>Framework for auditing and reviewing security operations</description>
+                <mappings>
+                    <nistCSF>
+                        <categories>
+                            <category>GV.RM Risk Management Strategy</category>
+                            <category>GV.OV Oversight</category>
+                            <category>GV.RR Roles and Responsibilities</category>
+                        </categories>
+                    </nistCSF>
+                </mappings>
+            </AuditFramework>
+            
+            <ContinuousImprovement>
+                <description>Process for continuously improving security operations</description>
+                <mappings>
+                    <nistCSF>
+                        <categories>
+                            <category>GV.RM Risk Management Strategy</category>
+                            <category>GV.RR Roles and Responsibilities</category>
+                            <category>GV.PO Policy</category>
+                            <category>GV.OV Oversight</category>
+                        </categories>
+                    </nistCSF>
+                </mappings>
+            </ContinuousImprovement>
+        </modules>
+    </Strategy>
+
+    <BusinessArchitecture>
+        <description>Alignment of security operations with the organization's business architecture</description>
+        <mappings>
+            <nistCSF>
+                <functions>
+                    <function>GV Govern</function>
+                    <function>ID Identify</function>
+                </functions>
+            </nistCSF>
+        </mappings>
+        <modules>
+            <BusinessValueStreams>
+                <description>Understanding how security operations support and protect business value flows</description>
+                <mappings>
+                    <nistCSF>
+                        <categories>
+                        </categories>
+                    </nistCSF>
+                </mappings>
+            </BusinessValueStreams>
+            
+            <BusinessServices>
+                <description>Ensuring security services align with business service requirements</description>
+                <mappings>
+                    <nistCSF>
+                        <categories>
+                        </categories>
+                    </nistCSF>
+                </mappings>
+            </BusinessServices>
+            
+            <BusinessCapabilities>
+                <description>Supporting core business capabilities through security operations</description>
+                <mappings>
+                    <nistCSF>
+                        <categories>
+                        </categories>
+                    </nistCSF>
+                </mappings>
+            </BusinessCapabilities>
+            
+            <BusinessEconomics>
+                <description>Economic framework for security operations</description>
+                <mappings>
+                    <nistCSF>
+                        <categories>
+                        </categories>
+                    </nistCSF>
+                </mappings>
+                <modules>
+                    <CostModel>
+                        <description>Framework for understanding and managing security operations costs</description>
+                        <mappings>
+                            <nistCSF>
+                                <categories>
+                                </categories>
+                            </nistCSF>
+                        </mappings>
+                    </CostModel>
+                    
+                    <ValueModel>
+                        <description>Framework for measuring and demonstrating security operations value</description>
+                        <mappings>
+                            <nistCSF>
+                                <categories>
+                                </categories>
+                            </nistCSF>
+                        </mappings>
+                    </ValueModel>
+                    
+                    <InvestmentModel>
+                        <description>Framework for planning and justifying security operations investments</description>
+                        <mappings>
+                            <nistCSF>
+                                <categories>
+                                </categories>
+                            </nistCSF>
+                        </mappings>
+                    </InvestmentModel>
+                </modules>
+            </BusinessEconomics>
+        </modules>
+    </BusinessArchitecture>
+
+    <SecurityCapabilities>
+        <description>Organization's security abilities, including people, processes, technology, and their maturity</description>
+        <mappings>
+            <nistCSF>
+                <functions>
+                    <function>PR Protect</function>
+                    <function>ID Identify</function>
+                    <function>DE Detect</function>
+                    <function>RS Respond</function>
+                    <function>RC Recover</function>
+                </functions>
+            </nistCSF>
+        </mappings>
+        <modules>
+            <SecurityMonitoring>
+                <description>Capability to monitor security posture across the organization</description>
+                <mappings>
+                    <nistCSF>
+                        <categories>
+                        </categories>
+                    </nistCSF>
+                </mappings>
+            </SecurityMonitoring>
+            
+            <ThreatDetection>
+                <description>Capability to identify and validate security threats</description>
+                <mappings>
+                    <nistCSF>
+                        <categories>
+                        </categories>
+                    </nistCSF>
+                </mappings>
+            </ThreatDetection>
+            
+            <IncidentResponse>
+                <description>Capability to coordinate and execute security incident handling</description>
+                <mappings>
+                    <nistCSF>
+                        <categories>
+                        </categories>
+                    </nistCSF>
+                </mappings>
+            </IncidentResponse>
+            
+            <ThreatIntelligence>
+                <description>Capability to gather and apply threat intelligence to defense</description>
+                <mappings>
+                    <nistCSF>
+                        <categories>
+                        </categories>
+                    </nistCSF>
+                </mappings>
+            </ThreatIntelligence>
+            
+            <SecurityAnalytics>
+                <description>Capability to perform advanced security analysis and investigation</description>
+                <mappings>
+                    <nistCSF>
+                        <categories>
+                        </categories>
+                    </nistCSF>
+                </mappings>
+            </SecurityAnalytics>
+            
+            <VulnerabilityManagement>
+                <description>Capability to identify and manage security vulnerabilities</description>
+                <mappings>
+                    <nistCSF>
+                        <categories>
+                        </categories>
+                    </nistCSF>
+                </mappings>
+            </VulnerabilityManagement>
+            
+            <ThreatModeling>
+                <description>Capability to model and analyze potential threats to guide defense strategies</description>
+                <mappings>
+                    <nistCSF>
+                        <categories>
+                        </categories>
+                    </nistCSF>
+                </mappings>
+            </ThreatModeling>
+        </modules>
+    </SecurityCapabilities>
+
+    <Team>
+        <description>Management and development of the security operations team</description>
+        <mappings>
+            <nistCSF>
+                <functions>
+                    <function>GV Govern</function>
+                    <function>PR Protect</function>
+                </functions>
+            </nistCSF>
+        </mappings>
+        <modules>
+            <TeamStructure>
+                <description>Defines roles, responsibilities, and hierarchy within the security team</description>
+                <mappings>
+                    <nistCSF>
+                        <categories>
+                        </categories>
+                    </nistCSF>
+                </mappings>
+            </TeamStructure>
+            
+            <TrainingAndAwareness>
+                <description>Programs for training, certification, and awareness initiatives</description>
+                <mappings>
+                    <nistCSF>
+                        <categories>
+                        </categories>
+                    </nistCSF>
+                </mappings>
+            </TrainingAndAwareness>
+            
+            <TalentManagement>
+                <description>Strategies for recruiting, retaining, and developing security talent</description>
+                <mappings>
+                    <nistCSF>
+                        <categories>
+                        </categories>
+                    </nistCSF>
+                </mappings>
+            </TalentManagement>
+            
+            <SecurityCulture>
+                <description>Initiatives to promote a strong security culture within the organization</description>
+                <mappings>
+                    <nistCSF>
+                        <categories>
+                        </categories>
+                    </nistCSF>
+                </mappings>
+            </SecurityCulture>
+        </modules>
+    </Team>
+
+    <SecurityArchitecture>
+        <description>Design patterns and security requirements guiding platform implementation</description>
+        <mappings>
+            <nistCSF>
+                <functions>
+                    <function>PR Protect</function>
+                    <function>DE Detect</function>
+                    <function>RS Respond</function>
+                </functions>
+            </nistCSF>
+        </mappings>
+        <modules>
+            <DetectionArchitecture>
+                <description>Design patterns for deploying threat detection mechanisms</description>
+                <mappings>
+                    <nistCSF>
+                        <categories>
+                        </categories>
+                    </nistCSF>
+                </mappings>
+            </DetectionArchitecture>
+            
+            <ResponseArchitecture>
+                <description>Design patterns for executing incident response processes</description>
+                <mappings>
+                    <nistCSF>
+                        <categories>
+                        </categories>
+                    </nistCSF>
+                </mappings>
+            </ResponseArchitecture>
+            
+            <ControlArchitecture>
+                <description>Design patterns for implementing security controls</description>
+                <mappings>
+                    <nistCSF>
+                        <categories>
+                        </categories>
+                    </nistCSF>
+                </mappings>
+            </ControlArchitecture>
+            
+            <DataSecurityArchitecture>
+                <description>Design patterns for ensuring data security</description>
+                <mappings>
+                    <nistCSF>
+                        <categories>
+                        </categories>
+                    </nistCSF>
+                </mappings>
+            </DataSecurityArchitecture>
+        </modules>
+    </SecurityArchitecture>
+
+    <PlatformArchitecture>
+        <description>Technical implementation patterns and infrastructure supporting security operations</description>
+        <mappings>
+            <nistCSF>
+                <functions>
+                    <function>PR Protect</function>
+                    <function>ID Identify</function>
+                    <function>RC Recover</function>
+                </functions>
+            </nistCSF>
+        </mappings>
+        <modules>
+            <SolutionArchitecture>
+                <description>Technical components and their relationships within security solutions</description>
+                <mappings>
+                    <nistCSF>
+                        <categories>
+                        </categories>
+                    </nistCSF>
+                </mappings>
+            </SolutionArchitecture>
+            
+            <ApplicationArchitecture>
+                <description>Structures and interfaces of security applications</description>
+                <mappings>
+                    <nistCSF>
+                        <categories>
+                        </categories>
+                    </nistCSF>
+                </mappings>
+            </ApplicationArchitecture>
+            
+            <IntegrationArchitecture>
+                <description>Technical integration patterns between security components</description>
+                <mappings>
+                    <nistCSF>
+                        <categories>
+                        </categories>
+                    </nistCSF>
+                </mappings>
+            </IntegrationArchitecture>
+            
+            <DataArchitecture>
+                <description>Data structures and flows within security operations</description>
+                <mappings>
+                    <nistCSF>
+                        <categories>
+                        </categories>
+                    </nistCSF>
+                </mappings>
+            </DataArchitecture>
+            
+            <InfrastructureArchitecture>
+                <description>Design and implementation of supporting infrastructure</description>
+                <mappings>
+                    <nistCSF>
+                        <categories>
+                        </categories>
+                    </nistCSF>
+                </mappings>
+            </InfrastructureArchitecture>
+
+            <ResilienceArchitecture>
+
+            <description>Design patterns for platform resilience, backup/recovery, and business continuity</description>
+            <mappings>
+                <nistCSF>
+                    <categories>
+                    </categories>
+                </nistCSF>
+            </mappings>
+        </ResilienceArchitecture>
+        </modules>
+    </PlatformArchitecture>
+
+    <OperationalModel>
+        <description>Operational aspects of how security capabilities are delivered and managed</description>
+        <mappings>
+            <nistCSF>
+                <functions>
+                    <function>GV Govern</function>
+                    <function>ID Identify</function>
+                    <function>DE Detect</function>
+                    <function>RS Respond</function>
+                    <function>RC Recover</function>
+                </functions>
+            </nistCSF>
+        </mappings>
+        <modules>
+            <ServiceDelivery>
+                <description>Methods of delivering security services to the organization</description>
+                <mappings>
+                    <nistCSF>
+                        <categories>
+                        </categories>
+                    </nistCSF>
+                </mappings>
+                <modules>
+                    <IntelligenceOperations>
+                        <description>Operations of the threat intelligence capability</description>
+                        <mappings>
+                            <nistCSF>
+                                <categories>
+                                </categories>
+                            </nistCSF>
+                        </mappings>
+                    </IntelligenceOperations>
+                    
+                    <MonitoringOperations>
+                        <description>Operations of the security monitoring capability</description>
+                        <mappings>
+                            <nistCSF>
+                                <categories>
+                                </categories>
+                            </nistCSF>
+                        </mappings>
+                    </MonitoringOperations>
+                    
+                    <DetectionOperations>
+                        <description>Operations of the threat detection capability</description>
+                        <mappings>
+                            <nistCSF>
+                                <categories>
+                                </categories>
+                            </nistCSF>
+                        </mappings>
+                    </DetectionOperations>
+                    
+                    <ResponseOperations>
+                        <description>Operations of the incident response capability</description>
+                        <mappings>
+                            <nistCSF>
+                                <categories>
+                                    <category>RS.MA Incident Management</category>
+                                    <category>RS.AN Incident Analysis</category>
+                                    <category>RS.CO Incident Response Reporting and Communication</category>
+                                    <category>RS.MI Incident Mitigation</category>
+                                </categories>
+                            </nistCSF>
+                        </mappings>
+                    </ResponseOperations>
+
+                    <RecoveryOperations>
+                        <description>Operations supporting recovery of security capabilities and coordination with organizational recovery</description>
+                        <mappings>
+                            <nistCSF>
+                                <categories>
+                                    <category>RC.RP Incident Recovery Plan Execution</category>
+                                    <category>RC.CO Incident Recovery Communication</category>
+                                </categories>
+                            </nistCSF>
+                        </mappings>
+                    </RecoveryOperations>
+                    
+                    <AnalyticsOperations>
+                        <description>Operations of the security analytics capability</description>
+                        <mappings>
+                            <nistCSF>
+                                <categories>
+                                </categories>
+                            </nistCSF>
+                        </mappings>
+                    </AnalyticsOperations>
+                </modules>
+            </ServiceDelivery>
+            
+            <ChangeManagement>
+                <description>Processes for managing changes within security operations</description>
+                <mappings>
+                    <nistCSF>
+                        <categories>
+                        </categories>
+                    </nistCSF>
+                </mappings>
+            </ChangeManagement>
+            
+            <AccessManagement>
+                <description>Management of access to security systems</description>
+                <mappings>
+                    <nistCSF>
+                        <categories>
+                        </categories>
+                    </nistCSF>
+                </mappings>
+            </AccessManagement>
+            
+            <VendorManagement>
+                <description>Management of security vendors and service providers</description>
+                <mappings>
+                    <nistCSF>
+                        <categories>
+                        </categories>
+                    </nistCSF>
+                </mappings>
+            </VendorManagement>
+            
+            <StakeholderEngagement>
+                <description>Management of engagement with security stakeholders</description>
+                <mappings>
+                    <nistCSF>
+                        <categories>
+                        </categories>
+                    </nistCSF>
+                </mappings>
+            </StakeholderEngagement>
+            
+            <LifecycleManagement>
+                <description>Processes for managing the lifecycle of security capabilities, technologies, and processes</description>
+                <mappings>
+                    <nistCSF>
+                        <categories>
+                        </categories>
+                    </nistCSF>
+                </mappings>
+                <modules>
+                    <TechnologyLifecycle>
+                        <description>Managing the lifecycle of security technologies from adoption to decommissioning</description>
+                        <mappings>
+                            <nistCSF>
+                                <categories>
+                                </categories>
+                            </nistCSF>
+                        </mappings>
+                    </TechnologyLifecycle>
+                    
+                    <ProcessLifecycle>
+                        <description>Continuous evaluation and improvement of security processes</description>
+                        <mappings>
+                            <nistCSF>
+                                <categories>
+                                </categories>
+                            </nistCSF>
+                        </mappings>
+                    </ProcessLifecycle>
+                    
+                    <CapabilityMaturity>
+                        <description>Framework for assessing and enhancing the maturity of security capabilities</description>
+                        <mappings>
+                            <nistCSF>
+                                <categories>
+                                </categories>
+                            </nistCSF>
+                        </mappings>
+                    </CapabilityMaturity>
+                </modules>
+            </LifecycleManagement>
+        </modules>
+    </OperationalModel>
+</SecurityOperationsProgram>
